@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+         <!-- Font Awesome -->
+         <script src="https://kit.fontawesome.com/3732f07a5a.js" crossorigin="anonymous"></script>
+    </head>
+    <style>
+        .login-form{
+            padding: 7rem;
+            margin: 3rem;
+        }
+        .login{
+            margin-bottom: 0;
+        }
+        .login-img{
+            background-image: url('https://i.zst.com.br/images/livros-enem-photo695669592-44-24-19.jpg');
+            background-color: #cccccc;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+    </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info p-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Livbri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Departamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Login <span class="sr-only">(current)</span></a>
+                  </li>
+
+            </ul>
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Pesquisar">
+                <button class="btn btn-dark" type="submit">Busca</button>
+            </form>
+            </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+          <section class="row login">
+                <div class="col-md-6 col-12">
+                    <div class="row">
+                        <div class="col-md-12 login-form">
+                            <div class="text-group text-center align-center">
+                                <h2 class="display-4">Login</h2>
+                                <form class="mt-5">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Coloque o ID informado">
+                                    </div>
+                                    <div class="form-group">
+                                        <a class="btn btn-block btn-success" href="painel.html">Acessar</a>
+                                    </div> 
+                                    <div class="form-group">
+                                        Esqueci <a href="#" class="text-success">meu ID</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 login-img border">
+                </div>   
+          </section>
+      </div>
+</body>
+<footer> 
+    <div class="bg-dark">
+        <div class="container-fluid ">
+            <div class="row mt-2">
+                <!-- Logotipos -->
+                <div class="col-md-8 offset-md-2">
+                    <!-- divisao -->
+                    <div class="divider"></div>
+                    <div class="row">
+                        <!-- Lista de Navegação -->
+                        <div class="col-md-12 listas mt-3">
+                            <div class="row">
+                                <!-- Links Uteis -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Meios de Pagamento</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item"><i class="fab fa-cc-visa"></i> Visa</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-mastercard"></i> MasterCard</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-amex"></i> American Express</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-amazon-pay"></i> Amazon Pay</li>
+                                        </ul>
+                                </div>
+                                <!-- Redes Sociais -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Redes Sociais</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item"><i class="fab fa-facebook-square"></i> Facebook</li>
+                                            <li class="list-group-item"><i class="fab fa-twitter-square"></i> Twitter</li>
+                                            <li class="list-group-item"><i class="fab fa-instagram"></i> Instagram</li>
+                                            <li class="list-group-item"><i class="fas fa-share-alt"></i> Outros</li>
+                                        </ul>
+                                </div>
+                                <!-- Links Uteis -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Links Uteis</h5>
+                                        <ul class="list-group list-group-flush footer-color">
+                                            <li class="list-group-item"><i class="fas fa-book-reader"></i> Login</li>
+                                            <li class="list-group-item"><i class="fas fa-chart-bar"></i> Registrar novo Usuario</li>
+                                            <li class="list-group-item"><i class="fas fa-thumbs-up"></i> Curta o Repositorio</li>
+                                            <li class="list-group-item"><i class="fas fa-share-alt"></i> Outros</li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-2"></div>
+                    <div class="row">
+                    <!-- Copyright -->
+                        <div class="col-md-12 copyright">
+                            <div class="row">
+                                <div class="col-md-12  mt-1">
+                                    <div class="text-center text-white">
+                                        <small> Jvitorn - Todos Os Direitos Reservados,imagens do carrousel meramente ilustrativas e creditos a saraiva</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- divisao -->
+                    <div class="divider mt-2"></div>
+                    <div class="row">
+                        <div class="col-md-12 copyright-equipe mt-1 text-white">      
+                            <div class="row">
+                                <div class="col-md-12">
+                                        <div class="text-center copyright-font">
+                                            <small>@ Desenvolvido por Jvitorn</small>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</footer>
+</html>

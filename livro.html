@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/3732f07a5a.js" crossorigin="anonymous"></script>
+    <style>
+        .livro{
+            margin-top: 3rem;
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .display-5{
+            font-size: 2.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+        .autor-livro{
+            color: #9b9b9b;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info p-4">
+        <div class="container">
+            <a class="navbar-brand" href="#"><small>Livbri</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Departamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="categoria.html">Categoria</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                  </li>
+
+            </ul>
+            <form class="form-inline">
+                <input class="form-control" type="search" placeholder="Pesquisar">
+                <button class="btn btn-dark" type="submit">Busca</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="row livro">
+            <div class="col-md-6 livro-img">
+                <img src="http://lojasaraiva.vteximg.com.br/arquivos/ids/12101382/1009410142.jpg?v=637142219587830000" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-md-6 livro-info">
+                <div class="text-group">
+                    <h3 class="display-5">As Crônicas De Nárnia - Volume Único</h3>
+                    <hr>
+                    <span class="autor-livro">Autor :</span><span> C.S Lewis</span>
+                    <br>
+                    <span class="autor-livro">Categoria :</span><span> Fantasia</span>
+                    <hr>
+                    <h3 class="display-5">Descrição</h3>
+                    <p>Viagens ao fim do mundo, criaturas fantásticas e batalhas épicas entre o bem e o mal - o que mais um leitor poderia querer de um livro? O livro que tem tudo isso é ''O leão, a feiticeira e o guarda-roupa'', escrito em 1949 por Clive Staples Lewis. Mas Lewis não parou por aí. Seis outros livros vieram depois e, juntos, ficaram conhecidos como ''As crônicas de Nárnia''. Nos últimos cinqüenta anos, ''As crônicas de Nárnia'' transcenderam o gênero da fantasia para se tornar parte do cânone da literatura clássica</p>
+                    <h2 class="display-4 mb-3">R$65.90</h2>
+                    <button class="btn btn-outline-danger">Comprar Agora</button>
+                </div>  
+            </div>
+        </section>
+    </div>
+</body>
+<footer> 
+    <div class="bg-dark">
+        <div class="container-fluid ">
+            <div class="row mt-2">
+                <!-- Logotipos -->
+                <div class="col-md-8 offset-md-2">
+                    <!-- divisao -->
+                    <div class="divider"></div>
+                    <div class="row">
+                        <!-- Lista de Navegação -->
+                        <div class="col-md-12 listas mt-3">
+                            <div class="row">
+                                <!-- Links Uteis -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Meios de Pagamento</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item"><i class="fab fa-cc-visa"></i> Visa</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-mastercard"></i> MasterCard</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-amex"></i> American Express</li>
+                                            <li class="list-group-item"><i class="fab fa-cc-amazon-pay"></i> Amazon Pay</li>
+                                        </ul>
+                                </div>
+                                <!-- Redes Sociais -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Redes Sociais</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item"><i class="fab fa-facebook-square"></i> Facebook</li>
+                                            <li class="list-group-item"><i class="fab fa-twitter-square"></i> Twitter</li>
+                                            <li class="list-group-item"><i class="fab fa-instagram"></i> Instagram</li>
+                                            <li class="list-group-item"><i class="fas fa-share-alt"></i> Outros</li>
+                                        </ul>
+                                </div>
+                                <!-- Links Uteis -->
+                                <div class="col-md-4">
+                                        <h5 class="h5 text-info">Links Uteis</h5>
+                                        <ul class="list-group list-group-flush footer-color">
+                                            <li class="list-group-item"><i class="fas fa-book-reader"></i> Login</li>
+                                            <li class="list-group-item"><i class="fas fa-chart-bar"></i> Registrar novo Usuario</li>
+                                            <li class="list-group-item"><i class="fas fa-thumbs-up"></i> Curta o Repositorio</li>
+                                            <li class="list-group-item"><i class="fas fa-share-alt"></i> Outros</li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider mt-2"></div>
+                    <div class="row">
+                    <!-- Copyright -->
+                        <div class="col-md-12 copyright">
+                            <div class="row">
+                                <div class="col-md-12  mt-1">
+                                    <div class="text-center text-white">
+                                        <small> Jvitorn - Todos Os Direitos Reservados,imagens do carrousel meramente ilustrativas e creditos a saraiva</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- divisao -->
+                    <div class="divider mt-2"></div>
+                    <div class="row">
+                        <div class="col-md-12 copyright-equipe mt-1 text-white">      
+                            <div class="row">
+                                <div class="col-md-12">
+                                        <div class="text-center copyright-font">
+                                            <small>@ Desenvolvido por Jvitorn</small>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</footer>
+</html>

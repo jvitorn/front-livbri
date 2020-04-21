@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/3732f07a5a.js" crossorigin="anonymous"></script>
+    <style>
+        .noturno{
+            background-color: #15171c;
+            color:white
+        }
+        .display-5{
+            font-size: 2.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+        .conteudo{
+            margin-top: 4rem;
+        }
+        .painel-box{
+            margin-top: 2rem;
+            padding: 2.5rem;
+            margin-left: 2rem;
+            height: 170px;
+            max-height:250px;
+            border-radius: 20px;
+            margin-bottom: 2.5rem;
+        }
+    </style>
+</head>
+<body class="noturno">
+    <div class="container-fluid">
+        <section class="row conteudo">
+            <div class="col-md-2 border border-white">
+                <section class="row menu">
+                    <div class="col-md-12 shadow">
+                        <div class="row">
+                            <div class="col-md-12">icon</div>
+                            <div class="col-md-12">icon</div>
+                            <div class="col-md-12">icon</div>
+                            <div class="col-md-12">icon</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-10">
+                <section class="row painel-conteudo">
+                    <div class="col-6">
+                        <div class="form-group mt-2">
+                            <input type="text" class="form-control col-8 offset-2" placeholder="pesquisar">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="display-5 text-center">Bem Vindo João</h5>
+                    </div>
+                </section>
+                <section class="row painel-box-info">
+                    <div class="col-md-8 offset-2">
+                        <div class="row">
+                            <div class="col-md-3 painel-box bg-info">
+                                <span class="lead">Visitantes</span>
+                                <br>
+                                <span class="mt-2 display-5">238220</span>
+                            </div>
+                            <div class="col-md-3 painel-box bg-danger">
+                                <span class="lead">Livros</span>
+                                <br>
+                                <span class="mt-2 display-5">239420</span>
+                            </div>
+                            <div class="col-md-3 painel-box bg-success">
+                                <span class="lead">Desativados</span>
+                                <br>
+                                <span class="mt-2 display-5">239420</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="row painel-painel">
+
+                    <div class="card bg-dark">
+                        <div class="card-header">A Basic Panel</div>
+                      </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
