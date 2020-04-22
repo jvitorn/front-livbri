@@ -5,61 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/adm.css">
      <!-- Font Awesome -->
      <script src="https://kit.fontawesome.com/3732f07a5a.js" crossorigin="anonymous"></script>
-    <style>
-        .noturno{
-            background-color: #15171c;
-            color:white
-        }
-        .display-5{
-            font-size: 2.5rem;
-            font-weight: 300;
-            line-height: 1.2;
-            margin-bottom: 0.5rem;
-        }
-        .conteudo{
-            margin-top: 4rem;
-        }
-        .painel-box{
-            margin-top: 2rem;
-            padding: 2.5rem;
-            margin-left: 2rem;
-            height: 170px;
-            max-height:250px;
-            border-radius: 20px;
-            margin-bottom: 2.5rem;
-        }
-    </style>
 </head>
 <body class="noturno">
     <div class="container-fluid">
         <section class="row conteudo">
-            <div class="col-md-2 border border-white">
-                <section class="row menu">
-                    <div class="col-md-12 shadow">
-                        <div class="row">
-                            <div class="col-md-12">icon</div>
-                            <div class="col-md-12">icon</div>
-                            <div class="col-md-12">icon</div>
-                            <div class="col-md-12">icon</div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="col-md-10">
+            <div class="col-md-10 offset-1">
                 <section class="row painel-conteudo">
                     <div class="col-6">
                         <div class="form-group mt-2">
-                            <input type="text" class="form-control col-8 offset-2" placeholder="pesquisar">
+                            <input type="text" class="form-control col-8  pesquisa" placeholder="Pesquisar">
                         </div>
                     </div>
                     <div class="col-6">
-                        <h5 class="display-5 text-center">Bem Vindo João</h5>
+                        <h5 class="display-5 text-right">Bem Vindo João</h5>
                     </div>
                 </section>
                 <section class="row painel-box-info">
-                    <div class="col-md-8 offset-2">
+                    <div class="col-md-12 align-center">
                         <div class="row">
                             <div class="col-md-3 painel-box bg-info">
                                 <span class="lead">Visitantes</span>
@@ -71,7 +36,7 @@
                                 <br>
                                 <span class="mt-2 display-5">239420</span>
                             </div>
-                            <div class="col-md-3 painel-box bg-success">
+                            <div class="col-md-3 painel-box bg-warning">
                                 <span class="lead">Desativados</span>
                                 <br>
                                 <span class="mt-2 display-5">239420</span>
@@ -79,11 +44,50 @@
                         </div>
                     </div>
                 </section>
+                <section class="row menu">
+                    <div class="col-md-12 mb-5">
+                        <div class="row">
+                           <div class="col-md-6 icon-menu-itens">
+                            <a href="adicionaLivros.html">
+                                <i class="fas fa-plus"></i>
+                                <br>
+                                Adicionar Livro
+                            </a>
+                            </div>
+                            <div class="col-md-6 icon-menu-itens"><i class="fas fa-ban"></i><br>Inativar Livro</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 icon-menu-itens"><i class="fas fa-book-medical"></i><br>Reativar Livro</div>
+                            <div class="col-md-6 icon-menu-itens"><i class="fas fa-door-open"></i><br>Voltar P/ Home</div>
+                        </div>
+                    </div>
+                </section>
                 <section class="row painel-painel">
-
-                    <div class="card bg-dark">
-                        <div class="card-header">A Basic Panel</div>
-                      </div>
+                    <div class="col-md-6 mb-5">
+                        <div class="card bg-dark">
+                            <div class="card-header">Adicionar Livro</div>
+                            <div class="card-body">
+                                preciso fazer uma tabela aqui
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-success">Adicionar</button>
+                                <button class="btn btn-outline-danger">Cancelar</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-dark">
+                            <div class="card-header">Inativar Livro</div>
+                            <div class="card-body">
+                                preciso fazer uma tabela aqui
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-light">Inativar</button>
+                                <button class="btn btn-outline-danger">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </section>

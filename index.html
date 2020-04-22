@@ -7,152 +7,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
      <!-- Font Awesome -->
      <script src="https://kit.fontawesome.com/3732f07a5a.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="css/utils.css">
+     <link rel="stylesheet" href="css/footer.css">
 </head>
-<style>
-    .Recentes{
-        margin-top: 2.5rem;
-    }
-    .recentes-card{
-        margin-bottom: 0.5rem;
-        margin-top: 0.5rem;
-    }
-    .recentes-card-categoria{
-        font-weight: lighter;
-        font-size: x-small;
-        margin-bottom: 0.5rem;
-    }
-    .card{
-        max-height: 450px;
-        height:420px;
-        overflow: hidden;
-        margin-bottom: 2.5rem;
-        
-    }
-    .card-icons{
-        max-height: 450px;
-        height:130px;
-        overflow: hidden;
-       padding: 0.5rem;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 2.5rem;
-    }
-    .card-icons .fas{
-        font-size: 47px;
-    }
-    .card-icons p{
-        margin-top:2px;
-        font-weight: bolder;
-    }
-    section.Preco .card{
-        border:solid 1px lightskyblue;
-    }
-    section.Banner{
-        margin-bottom: 2.5rem;
-    }
-    .card .btn{
-        align-content: flex-end;
-        text-align: center;
-        display: flex;
-        align-items: end;
-    }
-    .card-title{
-        margin-bottom: 0rem;
-        text-overflow:initial;
-        white-space:nowrap;
-    }
-    .card-text{
-        font-weight: lighter;
-        margin-bottom: 0;
-    }
-    .card-prices{
-        font-weight: initial;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-    }
-    .card-img-top{
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 65%;
-        height: auto;
-        max-height: 45%;
-    }
-    .list-group-flush li{
-        background-color: #343a40!important;
-        color:white
-    }
-    /* tables */    
-    @media only screen and (max-width: 990px) {
-        
-        .card{
-            height:370px;
-            max-height: 95%;
-            overflow: hidden;
-            margin-bottom: 0.5rem;
-        }
-        .card-icons{
-            max-height: 150px;
-            height:100px;
-            overflow: hidden;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 2.5rem;
-        } 
-        .card-icons .card-body{
-            padding: 0.5rem;
-        }
-        .card-prices{
-            font-weight: initial;
-            font-size: 20px;
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 0.5rem;
-        }
-        .card-text{
-            font-weight: lighter;
-            margin-bottom: 0;
-            font-size: 13px;
-        }
-        .card-img-top{
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 50%;
-            height: auto;
-            max-height: 50%;
-        }
-    }
-    /* mobile */
-    @media only screen and (max-width: 765px) {
-        
-        .card-icons{
-            max-height: 100px;
-            height:50px;
-            overflow: hidden;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 2.5rem;
-        } 
-        .card-icons .card-body{
-            padding: 0.5rem;
-        }
-        .card{
-            height:500px;
-            overflow: hidden;
-            margin-bottom: 1.0rem;
-        }
-        .card-img-top{
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 65%;
-            height: auto;
-            max-height: 60%;
-        }
-    }
-</style>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info p-4">
+    <section class="navbar navbar-expand-lg navbar-dark bg-info p-4">
         <div class="container">
             <a class="navbar-brand" href="#"><small>Livbri</small></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -162,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -183,11 +44,11 @@
             </ul>
             <form class="form-inline">
                 <input class="form-control" type="search" placeholder="Pesquisar">
-                <button class="btn btn-dark" type="submit">Busca</button>
+                <a class="btn btn-dark" href="busca.html">Busca</a>
             </form>
             </div>
         </div>
-      </nav>
+      </section>
     <div class="container">
         <section class=" carrousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
